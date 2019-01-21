@@ -1,0 +1,113 @@
+/* your styles go here */
+.th-width{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-1 {
+  background-color: #f26066;
+  opacity: 0.7;
+  width: 200px;
+  height: 600px;
+  transform-origin: 43% 35%;
+  transform: rotate(-45deg);
+  display: inline-block;
+}
+.container-2 {
+  background-color: #f26066;
+  opacity: 0.7;
+  width: 200px;
+  height: 600px;
+  transform-origin: 56% 34%;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+.container-3 {
+  background-color: #f26066;
+  opacity: 0.7;
+  width: 200px;
+  height: 200px;
+  transform-origin: 276% -46%;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+.th-straight {
+  background-color: #0071BC;
+  color: white;
+  font-family: Arial;
+  transform: skewY(deg);
+  transform-origin: 0;
+}
+
+.th-title {
+ color: white;
+  font-family: Arial;
+  padding-top: 5%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-45%);
+  transform: translateX(-45%);
+}
+.home-carousel .item img{
+
+}
+
+@media(max-width: 576px){
+  .top-bar{
+    display: none;
+  }
+}
+.video-banner{
+  background-color: #101215;
+}
+.home-carousel .owl-carousel{
+  padding-top: 0;
+}
+.text-not-bold{
+  font-weight: 300;
+}
+.btn-link{text-decoration:none !important;color:#003A6A;}
+a{text-decoration: none !important;}
+
+.th-slider{
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+
+}
+@media only screen and (max-width: 600px) {
+  .th-slider{
+  height: 40vh !important;
+}
+}
+.our-product{
+  padding: 5%;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+.card-header {
+   
+    background-color: #003A6A!important;
+    
+}
+.form-control{border:0px !important;} select{border-radius:0px !important;}
+.text-white{font-color:#ffffff;}
+.product-home a {
+  color: #fff;
+  
+}
+.bg { 
+
+  background-image: url("img/s3f.jpg");
+  height: 30%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(50);
+
+}
+
+.th-imgwidth{
+height: 350px !important;}

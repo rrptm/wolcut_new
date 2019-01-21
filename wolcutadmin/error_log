@@ -1,0 +1,2 @@
+[21-Dec-2018 16:31:36 UTC] PHP Fatal error:  Call to a member function get_warehouse() on null in /home/trixno/public_html/pay-earn.co.in/shopadmin/application/views/header.php on line 325
+[21-Dec-2018 16:34:29 UTC] PHP Fatal error:  Call to a member function get_warehouse() on null in /home/trixno/public_html/pay-earn.co.in/shopadmin/application/views/header.php on line 325
