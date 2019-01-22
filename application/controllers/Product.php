@@ -65,6 +65,9 @@ class Product extends CI_Controller {
         	$data['c_name'] = $details[0]->c_name;
         	$data['p_adddesc'] = $details[0]->p_adddesc;
         	$data['p_stock'] = $details[0]->p_stock;
+        	$data['p_color'] = $details[0]->p_color;
+			$data['p_grit'] = $details[0]->p_grit;
+			$data['p_thick'] = $details[0]->p_thick;
         	$data['p_category'] = $details[0]->p_category;
         	$data['p_view'] = $details[0]->p_view;
         	$view=$data['p_view']+1;

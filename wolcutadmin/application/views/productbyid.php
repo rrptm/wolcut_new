@@ -36,6 +36,24 @@
 									<textarea type="text" class="form-control m-input" name="p_adddesc" placeholder=""><?php echo $p_adddesc;?></textarea>
 								</div>
 							</div>
+							<div class="m-form__group form-group row">
+								<label class="col-lg-2 col-form-label">Color:</label>
+								<div class="col-lg-6">
+									<textarea type="text" class="form-control m-input" name="p_color" placeholder=""><?php echo $p_color;?></textarea>
+								</div>
+							</div>
+							<div class="m-form__group form-group row">
+								<label class="col-lg-2 col-form-label">Grit:</label>
+									<div class="col-lg-6">
+										<textarea type="text" class="form-control m-input" name="p_grit" placeholder=""><?php echo $p_grit;?></textarea>
+									</div>
+							</div>
+							<div class="m-form__group form-group row">
+								<label class="col-lg-2 col-form-label">Thicknesss:</label>
+								<div class="col-lg-6">
+									<textarea type="text" class="form-control m-input" name="p_thick" placeholder=""><?php echo $p_thick;?></textarea>
+								</div>
+							</div>
 							<div class="m-form__group form-group row" style="display: none;">
 								<label class="col-lg-2 col-form-label" for="exampleTextarea">Selling Price:</label>
 								<div class="col-lg-6">

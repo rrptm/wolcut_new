@@ -59,7 +59,7 @@
           <div class="container" class="row">
             <div class="col-lg-12">
               <section class="bar1">
-                <p class="text-sm" style="color:#545454">Please feel free to contact us.</p>
+                <p class="text-sm">Please feel free to contact us.</p>
                 <?php $attributes = array("name" => "contact"); echo form_open_multipart("contact", $attributes);?>
                   <div class="row">
                     <div class="col-md-6">

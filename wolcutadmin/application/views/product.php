@@ -30,6 +30,24 @@
 									<textarea type="text" class="form-control m-input" name="p_desc" placeholder=""></textarea>
 								</div>
 							</div>
+							<div class="m-form__group form-group row" >
+								<label class="col-lg-2 col-form-label"  for="exampleTextarea">Color:</label>
+								<div class="col-lg-6">
+									<input type="number" class="form-control m-input" name="p_color" placeholder="">
+								</div>
+							</div>
+							<div class="m-form__group form-group row" >
+								<label class="col-lg-2 col-form-label"  for="exampleTextarea">Grit:</label>
+								<div class="col-lg-6">
+									<input type="number" class="form-control m-input" name="p_grit" placeholder="">
+								</div>
+							</div>
+							<div class="m-form__group form-group row" >
+								<label class="col-lg-2 col-form-label"  for="exampleTextarea">Thicknesss:</label>
+								<div class="col-lg-6">
+									<input type="number" class="form-control m-input" name="p_thick" placeholder="">
+								</div>
+							</div>
 							<div class="m-form__group form-group row">
 								<label class="col-lg-2 col-form-label">Specification:</label>
 								<div class="col-lg-6">

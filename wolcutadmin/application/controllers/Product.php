@@ -71,6 +71,9 @@ class product extends CI_Controller {
 				'p_adddesc' => ascii_to_entities($this->input->post('p_adddesc')),
 				'p_sp' => $this->input->post('p_sp'),
 				'p_stock' => $this->input->post('p_stock'),
+				'p_color' => $this->input->post('p_color'),
+				'p_grit' => $this->input->post('p_grit'),
+				'p_thick' => $this->input->post('p_thick'),
 				'p_category' => $this->input->post('p_category'),
 				'p_brand' => $this->input->post('p_brand'),
 				'p_mstock' => $this->input->post('p_mstock'),
@@ -239,6 +242,9 @@ class product extends CI_Controller {
 				'p_adddesc' => ascii_to_entities($this->input->post('p_adddesc')),
 				'p_sp' => $this->input->post('p_sp'),
 				'p_stock' => $this->input->post('p_stock'),
+				'p_color' => $this->input->post('p_color'),
+				'p_grit' => $this->input->post('p_grit'),
+				'p_thick' => $this->input->post('p_thick'),
 				'p_category' => $this->input->post('p_category'),
 				'p_brand' => $this->input->post('p_brand'),
 				'p_mstock' => $this->input->post('p_mstock'),
@@ -270,6 +276,9 @@ class product extends CI_Controller {
 					$data['p_sp'] = $details[0]->p_sp;
 					$data['p_mstock'] = $details[0]->p_mstock;
 					$data['p_stock'] = $details[0]->p_stock;
+					$data['p_color'] = $details[0]->p_color;
+					$data['p_grit'] = $details[0]->p_grit;
+					$data['p_thick'] = $details[0]->p_thick;
 					$data['p_brand'] = $details[0]->p_brand;
 					$data['p_category'] = $details[0]->p_category;
 					$data['p_image'] = $details[0]->p_image;
@@ -298,6 +307,9 @@ class product extends CI_Controller {
         			$data['p_adddesc'] = $details[0]->p_adddesc;
 					$data['p_sp'] = $details[0]->p_sp;
 					$data['p_stock'] = $details[0]->p_stock;
+					$data['p_color'] = $details[0]->p_color;
+					$data['p_grit'] = $details[0]->p_grit;
+					$data['p_thick'] = $details[0]->p_thick;
 					$data['p_mstock'] = $details[0]->p_mstock;
 					$data['p_category'] = $details[0]->p_category;
 					$data['p_brand'] = $details[0]->p_brand;
@@ -352,6 +364,9 @@ class product extends CI_Controller {
 				'p_adddesc' => ascii_to_entities($this->input->post('p_adddesc')),
 				'p_sp' => $this->input->post('p_sp'),
 				'p_stock' => $this->input->post('p_stock'),
+				'p_color' => $this->input->post('p_color'),
+				'p_grit' => $this->input->post('p_grit'),
+				'p_thick' => $this->input->post('p_thick'),
 				'p_mstock' => $this->input->post('p_mstock'),
 				'p_brand' => $this->input->post('p_brand'),
 				'p_category' => $this->input->post('p_category'),

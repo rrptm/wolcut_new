@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-lg-8">
               <section class="bar">
-                <p class="text-sm">Please feel free to contact us.</p>
+                <p class="text-sm" style="color:#545454">Please feel free to contact us.</p>
                 <?php $attributes = array("name" => "contact"); echo form_open_multipart("contact", $attributes);?>
                   <div class="row">
                     <div class="col-md-6">
@@ -18,8 +18,8 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label >Company Name</label>
-                        <input id="contact" type="text" class="form-control" name="c_comp" style="background-color: #f8f8f8;">
+                        <label >City</label>
+                        <input id="contact" type="text" class="form-control" name="c_city" style="background-color: #f8f8f8;">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -30,8 +30,11 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label >City</label>
-                        <input id="contact" type="text" class="form-control" name="c_city" style="background-color: #f8f8f8;">
+                        <label for="subject">I am a</label>
+                        <select class="custom-select" name="c_person" style="background-color: #f8f8f8;" id="inputGroupSelect03" aria-label="Example select with button addon">
+                          <option value="Buyer">Buyer </option>
+                          <option value="Distributor">Distributor</option>
+                        </select>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -39,20 +42,17 @@
                         <label >Country</label>
                         <input id="contact" type="text" class="form-control" name="c_country" style="background-color: #f8f8f8;">
                       </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="subject">I am a</label>
-                        <select class="custom-select" name="c_person" style="background-color: #f8f8f8;" id="inputGroupSelect03" aria-label="Example select with button addon">
-						              <option value="Buyer">Buyer </option>
-						              <option value="Distributor">Distributor</option>
-						            </select>
+
+                      <div class="form-group pt-2">
+                        <label >Company Name</label>
+                        <input id="contact" type="text" class="form-control" name="c_comp" style="background-color: #f8f8f8;">
                       </div>
                     </div>
-                    <div class="col-md-12">
+                    
+                    <div class="col-md-6">
                       <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" class="form-control" name="c_message" style="background-color: #f8f8f8;"></textarea>
+                        <textarea  rows="5" id="message" class="form-control" name="c_message" style="background-color: #f8f8f8; "></textarea>
                       </div>
                     </div>
                     <div class="col-md-12 text-center">

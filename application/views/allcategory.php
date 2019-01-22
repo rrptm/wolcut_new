@@ -142,26 +142,14 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label >Company Name</label>
-                        <input id="contact" type="text" class="form-control" name="c_comp" style="background-color: #f8f8f8;">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label >Contact Number</label>
-                        <input id="contact" type="number" class="form-control" name="c_cont" style="background-color: #f8f8f8;">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
                         <label >City</label>
                         <input id="contact" type="text" class="form-control" name="c_city" style="background-color: #f8f8f8;">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <label >Country</label>
-                        <input id="contact" type="text" class="form-control" name="c_country" style="background-color: #f8f8f8;">
+                        <label >Contact Number</label>
+                        <input id="contact" type="number" class="form-control" name="c_cont" style="background-color: #f8f8f8;">
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -173,10 +161,22 @@
                         </select>
                       </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label >Country</label>
+                        <input id="contact" type="text" class="form-control" name="c_country" style="background-color: #f8f8f8;">
+                      </div>
+
+                      <div class="form-group pt-2">
+                        <label >Company Name</label>
+                        <input id="contact" type="text" class="form-control" name="c_comp" style="background-color: #f8f8f8;">
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6">
                       <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" class="form-control" name="c_message" style="background-color: #f8f8f8;"></textarea>
+                        <textarea  rows="5" id="message" class="form-control" name="c_message" style="background-color: #f8f8f8; "></textarea>
                       </div>
                     </div>
                     <div class="col-md-12 text-center">
