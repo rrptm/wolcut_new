@@ -71,14 +71,14 @@
 a{text-decoration: none !important;}
 
 .th-slider{
-  height: 70vh;
+  height: 80vh;
   background-position: center;
   background-size: cover;
 
 }
 @media only screen and (max-width: 600px) {
   .th-slider{
-  height: 40vh !important;
+  height: 50vh !important;
 }
 }
 .our-product{
@@ -111,3 +111,5 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .th-imgwidth{
 height: 350px !important;}
+.bgw{background-color: #111216 !important;}
+.nav-item a{color:#ababab!important;}

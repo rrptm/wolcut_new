@@ -16,67 +16,29 @@ class Shop extends CI_Controller {
 	{
 		$details['query']=$this->user->showproduct_mostview_cat();
 		$details['query1']=$this->user->showproduct_recent();
-		$this->load->view('header');
+		$details['active']="home";
+		$this->load->view('header',$details);
 		$this->load->view('index',$details);
 		$this->load->view('footer');
 	}
 	public function about()
 	{
-		$this->load->view('header');
+		$details['active']="about";
+		$this->load->view('header',$details);
 		$this->load->view('about');
-		$this->load->view('footer');
-	}
-	public function recharge()
-	{
-		$this->load->view('header');
-		$this->load->view('recharge');
-		$this->load->view('footer');
-	}
-	public function terms()
-	{
-		$this->load->view('header');
-		$this->load->view('terms');
-		$this->load->view('footer');
-	}
-	public function privacy()
-	{
-		$this->load->view('header');
-		$this->load->view('privacy');
-		$this->load->view('footer');
-	}
-	public function product_care()
-	{
-		$this->load->view('header');
-		$this->load->view('product_care');
-		$this->load->view('footer');
-	}
-	public function career()
-	{
-		$this->load->view('header');
-		$this->load->view('career');
-		$this->load->view('footer');
-	}
-	public function shipping()
-	{
-		$this->load->view('header');
-		$this->load->view('shipping');
-		$this->load->view('footer');
-	}
-	public function wholesale()
-	{
-		$this->load->view('header');
-		$this->load->view('wholesale');
 		$this->load->view('footer');
 	}
 	public function contact()
 	{
-		$this->load->view('header');
+		$details['active']="contact";
+		$this->load->view('header',$details);
 		$this->load->view('contact');
 		$this->load->view('footer');
 	}
 	public function allcategory()
 	{
-		$this->load->view('header');
+		$details['active']="where";
+		$this->load->view('header',$details);
 		$this->load->view('allcategory');
 		$this->load->view('footer');
 	}

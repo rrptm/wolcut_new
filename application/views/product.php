@@ -30,28 +30,28 @@
                      <h4 class="heading-light text-white"><b>Category:</b> <?php echo $c_name;?></h4>
                      <h4 class="heading-light text-white"><b>Specifications:</b><br><?php $adddesc=entity_decode($p_adddesc,$charset = NULL); echo auto_typography(html_escape($adddesc)); ?></h4>
                   </div>
-                  <h4 class="h4 text-white">Description</h4>
-                  <p class="text-white"><?php $desc=entity_decode($p_desc,$charset = NULL); echo auto_typography(html_escape($desc)); ?></p>
-
+                  
 
                 </div>
               </div>
-              <div id="product-social" class="box social text-center mb-5 mt-5">
+              <div id="product-social" class="box social text-center mb-5 mt-5 ">
               </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12">
+              <div class="row mt-5 pt-5">
+                <div class="col-lg-12 col-md-12 mt-5">
                   <div class="box text-uppercase mt-0 mb-small">
                     <h3 class="text-white">Related Products</h3>
                   </div>
                 </div>
-                <?php foreach ($query2 as $row) {?>
+                <?php foreach ($query2 as $row) { $p_category1=str_replace(' ', '-', $c_name);$p_name=str_replace(' ', '-', $row->p_name);?>
                 <div class="col-lg-4 col-md-4">
-                  <div class="product">
-                    <div class="image"><a href="#"><img src="<?php echo base_url(); ?>uploads/product/thumb/<?php echo $row->p_image;?>" alt="" class="img-fluid image1"></a></div>
-                    <div class="text">
-                      <h3 class="h5"><a href="#"><?php echo $row->p_name;?></a></h3>
-                    </div>
-                  </div>
+                  <a href="<?php echo base_url("index.php/product/details/$p_category1/$p_name"); ?>" >
+                      <div style="background-image: url('<?php echo base_url(); ?>uploads/product/thumb/<?php echo $row->p_image;?>'); background-position: center;background-size:cover;height: 240px; width: 100% !important; 
+  background-repeat: no-repeat;">
+                      </div>
+                      <br>
+                      <p class="text-center"><?php echo $row->p_name;?></p>
+                      
+                    </a>
                 </div>
             <?php }?>
               </div>

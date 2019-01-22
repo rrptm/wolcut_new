@@ -69,6 +69,7 @@ class Product extends CI_Controller {
         	$data['p_view'] = $details[0]->p_view;
         	$view=$data['p_view']+1;
 		$this->user->updateview($details[0]->p_id,$view);
+		$details['active']="product";
 		$this->load->view('header',$details);
 		$this->load->view('product',$data);
 		$this->load->view('footer');

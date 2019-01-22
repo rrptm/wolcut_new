@@ -56,5 +56,14 @@
     <script src="<?php echo base_url();?>media/vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
     <script src="<?php echo base_url();?>media/js/jquery.parallax-1.1.3.js"></script>
     <script src="<?php echo base_url();?>media/vendor/wowjs/wow.min.js"></script>
+    <script>
+  $(window).scroll(function(){
+    if($(document).scrollTop() > 0) {
+        $('.navbar').addClass('bgw');
+    } else {
+        $('.navbar').removeClass('bgw');
+    }
+});
+</script> 
   </body>
 </html>

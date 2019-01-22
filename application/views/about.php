@@ -1,4 +1,4 @@
-<div class="container-fluid bg pt-5 mt-3" >
+<div class="container-fluid bg pt-5" >
         <div class="container">
         <div class="row" style="padding-left: 15px;padding-right: 15px;margin-right: auto;
     margin-left: auto;">

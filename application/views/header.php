@@ -30,11 +30,11 @@
             <button type="button" data-toggle="collapse" data-target="#navigation" class="navbar-toggler btn-template-main"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
             <div id="navigation" class="navbar-collapse collapse">
               <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active"><a href="<?php echo base_url("index.php"); ?>">Home</a>
+                <li class="nav-item <?php if($active=="home"){echo "active";}?>"><a href="<?php echo base_url("index.php"); ?>">Home</a>
                   
                 </li>
                 <!-- ========== FULL WIDTH MEGAMENU ==================-->
-                <li class="nav-item dropdown menu-large"><a href="product.html" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">Products <b class="caret"></b></a>
+                <li class="nav-item dropdown menu-large <?php if($active=="product"){echo "active";}?>"><a href="product.html" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle">Products <b class="caret"></b></a>
                   <ul class="dropdown-menu megamenu">
                     <li>
                       <div class="row">
@@ -79,11 +79,11 @@
                   </ul>
                 </li>
 
-                <li class="nav-item"><a href="<?php echo base_url("index.php/shop/about"); ?>">About</a>
+                <li class="nav-item <?php if($active=="about"){echo "active";}?>" ><a href="<?php echo base_url("index.php/shop/about"); ?>">About</a>
                 </li>
-                <li class="nav-item"><a href="<?php echo base_url("index.php/shop/allcategory"); ?>">Where to Buy</a>
+                <li class="nav-item <?php if($active=="where"){echo "active";}?>"><a href="<?php echo base_url("index.php/shop/allcategory"); ?>">Where to Buy</a>
                 </li>
-                <li class="nav-item"><a href="<?php echo base_url("index.php/shop/contact"); ?>">Contact</a>
+                <li class="nav-item <?php if($active=="contact"){echo "active";}?>"><a href="<?php echo base_url("index.php/shop/contact"); ?>">Contact</a>
                 </li>
               </ul>
             </div>
